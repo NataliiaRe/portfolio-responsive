@@ -5,7 +5,7 @@
 }
 
 body {
-  margin: 0 auto;
+  margin: 0 0 50px 0;
   max-width: 100%;
 }
 
@@ -94,12 +94,26 @@ p {
 
 @media (max-width: 600px) {
   h1,
+  h2,
   p {
     text-align: center;
   }
 
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    margin-top: 20px;
+  }
+
   img {
     display: none;
+    margin-top: 0;
   }
 
   .primary-link {
@@ -110,5 +124,6 @@ p {
 
   p {
     font-size: 14px;
+    text-align: center;
   }
 }
